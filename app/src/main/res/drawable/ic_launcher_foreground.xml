@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Subtle water ripple below lotus -->
+    <path
+        android:pathData="M34,74 C42,77 66,77 74,74"
+        android:strokeColor="#4D38E5B7"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M40,78 C46,80 62,80 68,78"
+        android:strokeColor="#2E38E5B7"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round" />
+
+    <!-- Crescent Moon above / behind lotus -->
+    <path
+        android:pathData="M54,28 C59,28 64,30.5 67,34.5 C63.5,33.5 59.5,34.5 57,37.5 C54.5,40.5 54.5,44.5 56.5,48 C50,47 45.5,41.5 45.5,35 C45.5,31 48.5,28 54,28 Z"
+        android:fillColor="#E2F9F3" />
+
+    <!-- Radiant Lotus Flower -->
+    <!-- Center petal -->
+    <path
+        android:pathData="M54,39 C51,46 47,56 48,64 C49.5,70 54,72 54,72 C54,72 58.5,70 60,64 C61,56 57,46 54,39 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="39"
+                android:endX="54"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#70FFE6" />
+                <item android:offset="1.0" android:color="#38E5B7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left inner petal -->
+    <path
+        android:pathData="M52,48 C46,52 40,58 40,65 C40,69 44,71.5 49,71.5 C46,67 48,58 52,48 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="40"
+                android:startY="48"
+                android:endX="52"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#5BE8CA" />
+                <item android:offset="1.0" android:color="#2BC89E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right inner petal -->
+    <path
+        android:pathData="M56,48 C62,52 68,58 68,65 C68,69 64,71.5 59,71.5 C62,67 60,58 56,48 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="68"
+                android:startY="48"
+                android:endX="56"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#5BE8CA" />
+                <item android:offset="1.0" android:color="#2BC89E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Left outer petal -->
+    <path
+        android:pathData="M48,56 C39,59 32,64 33,69 C33.5,72 38,72 43,71 C38,67 42,60 48,56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="32"
+                android:startY="56"
+                android:endX="48"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8A6FE8" />
+                <item android:offset="1.0" android:color="#38E5B7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Right outer petal -->
+    <path
+        android:pathData="M60,56 C69,59 76,64 75,69 C74.5,72 70,72 65,71 C70,67 66,60 60,56 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="76"
+                android:startY="56"
+                android:endX="60"
+                android:endY="72"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8A6FE8" />
+                <item android:offset="1.0" android:color="#38E5B7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Central radiant aura dot -->
+    <path
+        android:pathData="M54,63m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0"
+        android:fillColor="#FFFFFF" />
+</vector>

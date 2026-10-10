@@ -1,0 +1,6 @@
+{
+  "name": "Serene",
+  "description": "Immersive nature meditation and mindful soundscape sanctuary with personalized progress tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
